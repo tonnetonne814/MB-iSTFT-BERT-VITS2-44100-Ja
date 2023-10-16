@@ -39,7 +39,7 @@ Anacondaによる実行環境構築を想定する。
 
 
 ## 2. データセットの準備
-書き起こしテキストファイルとwavファイルが入ったフォルダを用意する。書き起こしテキストは「wavファイル名|書き起こし文」と記述したもの。dataset_nameの名前は話者名にも流用するようになっています。追記式になってるので、色々なデータセットを一つ一つ追加する。
+書き起こしテキストファイルとwavファイルが入ったフォルダを用意する。書き起こしテキストは「wavファイル名|書き起こし文」と記述したもの。dataset_nameの名前は話者名にも流用するようになっています。追記式になってるので、色々なデータセットを一つ一つ追加する。書き起こしテキストのパスは、テキストファイルが入っているフォルダでも可。
 
 ```sh
 python3 preprocess.py --dataset_name name --dataset_folder path/to/wav/folder --dataset_language JP --text_path path/to/text.txt --split_symbol | 
