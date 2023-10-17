@@ -16,11 +16,11 @@ Anacondaによる実行環境構築を想定する。
 0. このレポジトリをクローンする（もしくはDownload Zipでダウンロードする）
 
     ```sh
-    git clone https://github.com/tonnetonne814/MB-iSTFT-VITS-44100-Ja.git
-    cd MB-iSTFT-VITS-44100-Ja # フォルダへ移動
+    git clone https://github.com/tonnetonne814/MB-iSTFT-BERT-VITS2-44100-Ja.git
+    cd MB-iSTFT-BERT-VITS2-44100-Ja # フォルダへ移動
     ```
 
-0. [https://pytorch.org/](https://pytorch.org/)のURLよりPyTorchをインストールする（_VF.stftの部分でエラーで止まったら違うバージョンに変える）
+0. [https://pytorch.org/](https://pytorch.org/)のURLよりPyTorchをインストールする。
     
     ```sh
     # OS=Linux, CUDA=11.7 の例
